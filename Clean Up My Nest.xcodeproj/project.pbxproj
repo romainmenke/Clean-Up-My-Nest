@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057FCD9E1B99221000E11D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCD9D1B99221000E11D40 /* AppDelegate.swift */; };
+		057FCDA01B99221000E11D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCD9F1B99221000E11D40 /* ViewController.swift */; };
+		057FCDA31B99221000E11D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057FCDA11B99221000E11D40 /* Main.storyboard */; };
+		057FCDA51B99221000E11D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057FCDA41B99221000E11D40 /* Assets.xcassets */; };
+		057FCDA81B99221000E11D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057FCDA61B99221000E11D40 /* LaunchScreen.storyboard */; };
+		057FCDB31B99221000E11D40 /* Clean_Up_My_NestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCDB21B99221000E11D40 /* Clean_Up_My_NestTests.swift */; };
+		057FCDBE1B99221000E11D40 /* Clean_Up_My_NestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCDBD1B99221000E11D40 /* Clean_Up_My_NestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		057FCDAF1B99221000E11D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057FCD921B99221000E11D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057FCD991B99221000E11D40;
+			remoteInfo = "Clean Up My Nest";
+		};
+		057FCDBA1B99221000E11D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057FCD921B99221000E11D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057FCD991B99221000E11D40;
+			remoteInfo = "Clean Up My Nest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057FCD9A1B99221000E11D40 /* Clean Up My Nest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Up My Nest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057FCD9D1B99221000E11D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		057FCD9F1B99221000E11D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		057FCDA21B99221000E11D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		057FCDA41B99221000E11D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		057FCDA71B99221000E11D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		057FCDA91B99221000E11D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057FCDAE1B99221000E11D40 /* Clean Up My NestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean Up My NestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057FCDB21B99221000E11D40 /* Clean_Up_My_NestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_Up_My_NestTests.swift; sourceTree = "<group>"; };
+		057FCDB41B99221000E11D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057FCDB91B99221000E11D40 /* Clean Up My NestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean Up My NestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057FCDBD1B99221000E11D40 /* Clean_Up_My_NestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_Up_My_NestUITests.swift; sourceTree = "<group>"; };
+		057FCDBF1B99221000E11D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		057FCD971B99221000E11D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057FCDAB1B99221000E11D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057FCDB61B99221000E11D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057FCD911B99221000E11D40 = {
+			isa = PBXGroup;
+			children = (
+				057FCD9C1B99221000E11D40 /* Clean Up My Nest */,
+				057FCDB11B99221000E11D40 /* Clean Up My NestTests */,
+				057FCDBC1B99221000E11D40 /* Clean Up My NestUITests */,
+				057FCD9B1B99221000E11D40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		057FCD9B1B99221000E11D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				057FCD9A1B99221000E11D40 /* Clean Up My Nest.app */,
+				057FCDAE1B99221000E11D40 /* Clean Up My NestTests.xctest */,
+				057FCDB91B99221000E11D40 /* Clean Up My NestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		057FCD9C1B99221000E11D40 /* Clean Up My Nest */ = {
+			isa = PBXGroup;
+			children = (
+				057FCD9D1B99221000E11D40 /* AppDelegate.swift */,
+				057FCD9F1B99221000E11D40 /* ViewController.swift */,
+				057FCDA11B99221000E11D40 /* Main.storyboard */,
+				057FCDA41B99221000E11D40 /* Assets.xcassets */,
+				057FCDA61B99221000E11D40 /* LaunchScreen.storyboard */,
+				057FCDA91B99221000E11D40 /* Info.plist */,
+			);
+			path = "Clean Up My Nest";
+			sourceTree = "<group>";
+		};
+		057FCDB11B99221000E11D40 /* Clean Up My NestTests */ = {
+			isa = PBXGroup;
+			children = (
+				057FCDB21B99221000E11D40 /* Clean_Up_My_NestTests.swift */,
+				057FCDB41B99221000E11D40 /* Info.plist */,
+			);
+			path = "Clean Up My NestTests";
+			sourceTree = "<group>";
+		};
+		057FCDBC1B99221000E11D40 /* Clean Up My NestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				057FCDBD1B99221000E11D40 /* Clean_Up_My_NestUITests.swift */,
+				057FCDBF1B99221000E11D40 /* Info.plist */,
+			);
+			path = "Clean Up My NestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		057FCD991B99221000E11D40 /* Clean Up My Nest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057FCDC21B99221000E11D40 /* Build configuration list for PBXNativeTarget "Clean Up My Nest" */;
+			buildPhases = (
+				057FCD961B99221000E11D40 /* Sources */,
+				057FCD971B99221000E11D40 /* Frameworks */,
+				057FCD981B99221000E11D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clean Up My Nest";
+			productName = "Clean Up My Nest";
+			productReference = 057FCD9A1B99221000E11D40 /* Clean Up My Nest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		057FCDAD1B99221000E11D40 /* Clean Up My NestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057FCDC51B99221000E11D40 /* Build configuration list for PBXNativeTarget "Clean Up My NestTests" */;
+			buildPhases = (
+				057FCDAA1B99221000E11D40 /* Sources */,
+				057FCDAB1B99221000E11D40 /* Frameworks */,
+				057FCDAC1B99221000E11D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				057FCDB01B99221000E11D40 /* PBXTargetDependency */,
+			);
+			name = "Clean Up My NestTests";
+			productName = "Clean Up My NestTests";
+			productReference = 057FCDAE1B99221000E11D40 /* Clean Up My NestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		057FCDB81B99221000E11D40 /* Clean Up My NestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057FCDC81B99221000E11D40 /* Build configuration list for PBXNativeTarget "Clean Up My NestUITests" */;
+			buildPhases = (
+				057FCDB51B99221000E11D40 /* Sources */,
+				057FCDB61B99221000E11D40 /* Frameworks */,
+				057FCDB71B99221000E11D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				057FCDBB1B99221000E11D40 /* PBXTargetDependency */,
+			);
+			name = "Clean Up My NestUITests";
+			productName = "Clean Up My NestUITests";
+			productReference = 057FCDB91B99221000E11D40 /* Clean Up My NestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		057FCD921B99221000E11D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "menke dev";
+				TargetAttributes = {
+					057FCD991B99221000E11D40 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					057FCDAD1B99221000E11D40 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 057FCD991B99221000E11D40;
+					};
+					057FCDB81B99221000E11D40 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 057FCD991B99221000E11D40;
+					};
+				};
+			};
+			buildConfigurationList = 057FCD951B99221000E11D40 /* Build configuration list for PBXProject "Clean Up My Nest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 057FCD911B99221000E11D40;
+			productRefGroup = 057FCD9B1B99221000E11D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057FCD991B99221000E11D40 /* Clean Up My Nest */,
+				057FCDAD1B99221000E11D40 /* Clean Up My NestTests */,
+				057FCDB81B99221000E11D40 /* Clean Up My NestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		057FCD981B99221000E11D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057FCDA81B99221000E11D40 /* LaunchScreen.storyboard in Resources */,
+				057FCDA51B99221000E11D40 /* Assets.xcassets in Resources */,
+				057FCDA31B99221000E11D40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057FCDAC1B99221000E11D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057FCDB71B99221000E11D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057FCD961B99221000E11D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057FCDA01B99221000E11D40 /* ViewController.swift in Sources */,
+				057FCD9E1B99221000E11D40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057FCDAA1B99221000E11D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057FCDB31B99221000E11D40 /* Clean_Up_My_NestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057FCDB51B99221000E11D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057FCDBE1B99221000E11D40 /* Clean_Up_My_NestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057FCDB01B99221000E11D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 057FCD991B99221000E11D40 /* Clean Up My Nest */;
+			targetProxy = 057FCDAF1B99221000E11D40 /* PBXContainerItemProxy */;
+		};
+		057FCDBB1B99221000E11D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 057FCD991B99221000E11D40 /* Clean Up My Nest */;
+			targetProxy = 057FCDBA1B99221000E11D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		057FCDA11B99221000E11D40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				057FCDA21B99221000E11D40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		057FCDA61B99221000E11D40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				057FCDA71B99221000E11D40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		057FCDC01B99221000E11D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		057FCDC11B99221000E11D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		057FCDC31B99221000E11D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Clean Up My Nest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Clean-Up-My-Nest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		057FCDC41B99221000E11D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Clean Up My Nest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Clean-Up-My-Nest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		057FCDC61B99221000E11D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Clean Up My NestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Clean-Up-My-NestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clean Up My Nest.app/Clean Up My Nest";
+			};
+			name = Debug;
+		};
+		057FCDC71B99221000E11D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Clean Up My NestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Clean-Up-My-NestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clean Up My Nest.app/Clean Up My Nest";
+			};
+			name = Release;
+		};
+		057FCDC91B99221000E11D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clean Up My NestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Clean-Up-My-NestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clean Up My Nest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		057FCDCA1B99221000E11D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clean Up My NestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Clean-Up-My-NestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clean Up My Nest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		057FCD951B99221000E11D40 /* Build configuration list for PBXProject "Clean Up My Nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057FCDC01B99221000E11D40 /* Debug */,
+				057FCDC11B99221000E11D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057FCDC21B99221000E11D40 /* Build configuration list for PBXNativeTarget "Clean Up My Nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057FCDC31B99221000E11D40 /* Debug */,
+				057FCDC41B99221000E11D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		057FCDC51B99221000E11D40 /* Build configuration list for PBXNativeTarget "Clean Up My NestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057FCDC61B99221000E11D40 /* Debug */,
+				057FCDC71B99221000E11D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		057FCDC81B99221000E11D40 /* Build configuration list for PBXNativeTarget "Clean Up My NestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057FCDC91B99221000E11D40 /* Debug */,
+				057FCDCA1B99221000E11D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 057FCD921B99221000E11D40 /* Project object */;
+}
