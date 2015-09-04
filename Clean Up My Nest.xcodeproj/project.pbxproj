@@ -14,6 +14,8 @@
 		057FCDA81B99221000E11D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057FCDA61B99221000E11D40 /* LaunchScreen.storyboard */; };
 		057FCDB31B99221000E11D40 /* Clean_Up_My_NestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCDB21B99221000E11D40 /* Clean_Up_My_NestTests.swift */; };
 		057FCDBE1B99221000E11D40 /* Clean_Up_My_NestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCDBD1B99221000E11D40 /* Clean_Up_My_NestUITests.swift */; };
+		057FCDCC1B99222100E11D40 /* PipeLineBase1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCDCB1B99222100E11D40 /* PipeLineBase1.swift */; settings = {ASSET_TAGS = (); }; };
+		057FCDCE1B9922BD00E11D40 /* AnimationPipeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057FCDCD1B9922BD00E11D40 /* AnimationPipeLine.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		057FCDB91B99221000E11D40 /* Clean Up My NestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean Up My NestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		057FCDBD1B99221000E11D40 /* Clean_Up_My_NestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_Up_My_NestUITests.swift; sourceTree = "<group>"; };
 		057FCDBF1B99221000E11D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057FCDCB1B99222100E11D40 /* PipeLineBase1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PipeLineBase1.swift; sourceTree = "<group>"; };
+		057FCDCD1B9922BD00E11D40 /* AnimationPipeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationPipeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				057FCDA41B99221000E11D40 /* Assets.xcassets */,
 				057FCDA61B99221000E11D40 /* LaunchScreen.storyboard */,
 				057FCDA91B99221000E11D40 /* Info.plist */,
+				057FCDCB1B99222100E11D40 /* PipeLineBase1.swift */,
+				057FCDCD1B9922BD00E11D40 /* AnimationPipeLine.swift */,
 			);
 			path = "Clean Up My Nest";
 			sourceTree = "<group>";
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057FCDCE1B9922BD00E11D40 /* AnimationPipeLine.swift in Sources */,
 				057FCDA01B99221000E11D40 /* ViewController.swift in Sources */,
+				057FCDCC1B99222100E11D40 /* PipeLineBase1.swift in Sources */,
 				057FCD9E1B99221000E11D40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
